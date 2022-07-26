@@ -1,0 +1,9 @@
+name: ExpChange
+version: '${version}'
+main: de.klochk.expchange.ExpChange
+api-version: 1.19
+description: Exchange EXP with other players and store it with cauldron
+commands:
+  expchange:
+    description: Move EXP to bottle
+    usage: /expchange

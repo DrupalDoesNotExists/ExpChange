@@ -1,0 +1,17 @@
+#
+# ExpChange | Exchange XP with other Players, UPDATES, 1.19, FREE!
+#
+# SpigotMC: (WIP)
+# Documentation: (WIP)
+#
+# All files licensed under MIT.
+#
+
+enable-transfer: true
+
+itemstack:
+  display-name: "&8« &aEXP Bottle &8»"
+  lore:
+    - ""
+    - "&a&lRIGHT-CLICK &7this bottle to consume."
+    - "&7EXP stored: &9{exp}"
