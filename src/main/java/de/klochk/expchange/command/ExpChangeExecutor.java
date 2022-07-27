@@ -50,6 +50,7 @@ public class ExpChangeExecutor implements CommandExecutor {
                     ItemStack item = Items.newItem(exp);
 
                     if (exp == 0) return true;
+                    if (player.getInventory().firstEmpty() == -1) return true;
 
                     player.setLevel(0);
                     player.getInventory().addItem(item);
